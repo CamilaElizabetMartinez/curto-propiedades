@@ -1,0 +1,272 @@
+// Wrapper:
+
+$wrapper-padding-top: 96px;
+$wrapper-padding-top-sm: 66px;
+
+.wrapper {
+  overflow-x: hidden;
+  @include transition(.25s);
+}
+
+// Header: 
+
+$nav-outer-width: 65vw;
+
+.main-header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  @include transition(.25s);
+  padding: $spacer 0;
+  .navbar {
+    .navbar-brand {
+      @include size(200px,100px);
+      background: url('../images/logo.svg') left center no-repeat;
+      background-size: contain;
+      @include transition(.25s);
+    }
+  }
+  .nav-outer-toggle {
+    position: relative;
+    @include size(35px,28px);
+    color: $white;
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include translate(-50%,-50%);
+      @include transition(.25s);
+      &.icon-open { opacity: 1; }
+      &.icon-close { opacity: 0; }
+    }
+  }
+  .nav-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    @include size($nav-outer-width,100vh);
+    color: $white;
+    background: $gray-800;
+    @include translateX(-100%);
+    @include transition(.5s);
+    .nav-close {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: $white;
+      padding: $spacer*2 $spacer*1.5;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+      li {
+        margin-bottom: $spacer;
+        a {
+          display: block;
+          position: relative;
+          @include font-size(21px);
+          font-family: 'Roboto-Regular';
+          color: $white;
+          padding-bottom: $spacer*0.5;
+          text-decoration: none;
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            @include size(0,4px);
+            background: $color1;
+            @include transform-origin(left center);
+            @include transition(.25s);
+          }
+          &:hover {
+            &:after { width: 100px; }
+          }
+        }
+      }
+    }
+  } 
+  .nav-outer-bg {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    @include size(100vw,100vh);
+    z-index: 999998;
+    background: $gray-800;
+    opacity: 0;
+    @include transition(1s);
+  }
+}
+
+// Reduce header height:
+
+body.is-header-small {
+  .main-header {
+    padding: $spacer*0.25 0;
+    background: $white;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+      0 12.5px 10px rgba(0, 0, 0, 0.035),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      0 100px 80px rgba(0, 0, 0, 0.07);
+    .navbar {
+      .navbar-brand {
+        background: url('../images/logo_iso.svg') left center no-repeat;
+        @include size(200px,40px);
+      }
+      .nav-outer-toggle { color: $color1; }
+    }
+  }
+}
+
+// Styles when nav-outer is open
+
+body.is-nav-open {
+  .main-header {
+    .nav-outer-toggle {
+      i {
+        &.icon-open { opacity: 0; }
+        &.icon-close { opacity: 1; }
+      }
+    }
+    .nav-outer {
+      @include translateX(0);
+    }
+    .nav-outer-bg { 
+      pointer-events: auto;
+      opacity: .95; 
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .main-header {
+    .nav-outer {
+      width: 100vw;
+    } 
+  }
+}
+
+// Budget form:
+
+.budget-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  @include size(100%,65vh);
+  color: $white;
+  background: $color1;
+  @include translateY(-105%);
+  @include transition(.5s);
+  .budget-form-close {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: $white;
+    padding: $spacer*2 $spacer*1.5;
+  }
+  .budget-form-bg {
+    pointer-events: none;
+    position: fixed;
+    top: 65vh;
+    left: 0;
+    @include size(100vw,35vh);
+    z-index: 999998;
+    background: $color1;
+    opacity: 0;
+    @include transition(1s);
+  }
+}
+
+@media (max-width: 700px) {
+  .budget-form {
+    height: 100vh;
+  }
+}
+
+// Styles when nav-outer is open
+
+body.is-budget-form-open {
+  .budget-form {
+    @include translateY(0);
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+      0 12.5px 10px rgba(0, 0, 0, 0.035),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      0 100px 80px rgba(0, 0, 0, 0.07);
+    .budget-form-bg { 
+      pointer-events: auto;
+      opacity: .65; 
+    }
+  }
+}
+
+// Footer
+
+footer {
+  .social {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include square(40px);
+      background: $white;
+      color: $gray-600;
+      @include border-radius(100%);
+      i {
+        font-size: 21px;
+      }
+      &:hover, &:focus {
+        color: $white;
+        background: $color1;
+        text-decoration: none;
+      }
+    }
+  }
+  .btn-link {
+    text-decoration: none;
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+// Content Block
+
+.content-block {
+  position: relative;
+  .bg {
+    position: absolute;
+    background: $color2;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    @include size(calc(100% + 100px),100%);
+  }
+}
+
+@media (max-width: 990px) {
+  .content-block {
+    .bg {
+      @include size(100%,100%);
+    }
+  }
+}

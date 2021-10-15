@@ -1,0 +1,80 @@
+Time : 20:11:07
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'curto_propiedades.planes' doesn't exist
+Raw SQL : select max(id) from planes where activo="S"
+
+Time : 19:32:03
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:26:07
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:24:00
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:23:22
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:22:50
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:21:21
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:21:08
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:19:22
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:16:23
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:16:03
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:15:20
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:14:01
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:13:30
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:12:07
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `curto_propiedades`.`coworking_planes`.`id` at row 1
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:11:43
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fecha_creado' in 'field list'
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 19:10:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activo' in 'field list'
+Raw SQL : INSERT INTO coworking_planes (activo,id,titulo_fulltime,desc_fulltime,valor_mensual_fulltime,valor_quincenal_fulltime,titulo_partime,desc_partime,valor_mensual_partime,valor_quincenal_partime,titulo_sala,desc_sala,valor_hora_sala,fecha_creado) VALUES (:activo,:id,:titulo_fulltime,:desc_fulltime,:valor_mensual_fulltime,:valor_quincenal_fulltime,:titulo_partime,:desc_partime,:valor_mensual_partime,:valor_quincenal_partime,:titulo_sala,:desc_sala,:valor_hora_sala,:fecha_creado)
+
+Time : 18:54:42
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'curto_propiedades.planes' doesn't exist
+Raw SQL : SELECT * FROM planes WHERE id= :id LIMIT 1
+
+Time : 18:45:05
+SQLSTATE[HY000] [1045] Access denied for user 'nestor'@'localhost' (using password: YES)
+
+Time : 18:45:03
+SQLSTATE[HY000] [1045] Access denied for user 'nestor'@'localhost' (using password: YES)
+
+Time : 18:44:32
+SQLSTATE[HY000] [1045] Access denied for user 'nestor'@'localhost' (using password: YES)

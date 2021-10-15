@@ -1,0 +1,2 @@
+Time : 03:08:15
+SQLSTATE[HY000] [1049] Unknown database 'curto_db'

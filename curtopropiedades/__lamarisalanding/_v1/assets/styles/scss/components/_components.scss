@@ -1,0 +1,79 @@
+// Images: 
+
+.image-h {
+  object-fit: cover;
+  &.-lg {
+    min-height: 500px;
+  }
+  &.-xl {
+    min-height: 650px;
+  }
+}
+
+@media (max-width: 990px) {
+  .image-h {
+    object-fit: cover;
+    &.-lg {
+      min-height: 300px;
+    }
+    &.-xl {
+      min-height: 400px;
+    }
+  }
+}
+
+// Buttons:
+
+.btn {
+  font-family: 'Roboto-Bold';
+  &.btn-secondary {
+    border: 0;
+    color: $color1;
+    background: $white;
+    &:hover, &:focus, &.active {
+      color: $white;
+      background: $gray-900;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .btn-block-xs {
+    width: 100%;
+  }
+}
+
+// Form control:
+
+.form-control {
+  font-family: 'Roboto-Bold';
+  @include font-size(15px);
+  background: transparent;
+  color: $white;
+  border: 1px solid $white;
+  @include placeholder($white);
+  &:focus {
+    color: $white;
+    background: transparent;
+  }
+}
+
+// Divider:
+
+hr {
+  border: 0;
+  border-top: 2px solid $gray-text;
+  &.hr-light { border-top-color: $gray-400; }
+}
+
+// Negative top margin:
+
+.mt-neg {
+  margin-top: -30px;
+}
+
+@media (max-width: 990px) {
+  .mt-neg {
+    margin-top: 0;
+  }
+}

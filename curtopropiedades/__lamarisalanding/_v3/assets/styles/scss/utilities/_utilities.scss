@@ -1,0 +1,86 @@
+/* Color */
+
+.color-1 { color: $color1; }
+.color-2 { color: $color2; }
+.color-3 { color: $color3; }
+.color-4 { color: $color4; }
+.color-5 { color: $color5; }
+.color-6 { color: $color6; }
+.color-7 { color: $color7; }
+.color-8 { color: $color8; }
+.color-9 { color: $color9; }
+.color-10 { color: $color10; }
+.color-11 { color: $color11; }
+
+.color-text { color: $gray-900; } 
+
+.color-success { color: $color-success; }
+.color-info { color: $color-info; }
+.color-warning { color: $color-warning; }
+.color-danger { color: $color-danger; }
+
+.color-w { color: $white; }
+.color-g1 { color: $gray-100; }
+.color-g2 { color: $gray-200; }
+.color-g3 { color: $gray-300; }
+.color-g4 { color: $gray-400; }
+.color-g5 { color: $gray-500; }
+.color-g6 { color: $gray-600; }
+.color-g7 { color: $gray-700; }
+.color-g8 { color: $gray-800; }
+.color-g9 { color: $gray-900; }
+.color-b { color: $black; }
+
+.bg-1 { background-color: $color1; }
+.bg-2 { background-color: $color2; }
+.bg-3 { background-color: $color3; }
+.bg-4 { background-color: $color4; }
+.bg-5 { background-color: $color5; }
+.bg-6 { background-color: $color6; }
+.bg-7 { background-color: $color7; }
+.bg-8 { background-color: $color8; }
+.bg-9 { background-color: $color9; }
+.bg-10 { background-color: $color10; }
+.bg-11 { background-color: $color11; }
+
+.bg-w { background-color: $white; }
+.bg-g1 { background-color: $gray-100; }
+.bg-g2 { background-color: $gray-200; }
+.bg-g3 { background-color: $gray-300; }
+.bg-g4 { background-color: $gray-400; }
+.bg-g5 { background-color: $gray-500; }
+.bg-g6 { background-color: $gray-600; }
+.bg-g7 { background-color: $gray-700; }
+.bg-g8 { background-color: $gray-800; }
+.bg-g9 { background-color: $gray-900; }
+.bg-b { background-color: $black; }
+
+// Shadows:
+
+.shadow {
+  box-shadow: 
+    0 13px 27px -5px rgba(0,0,0,.25), 
+    0 8px 16px -8px rgba(0,0,0,.3), 
+    0 -6px 16px -6px rgba(0,0,0,.025) !important;
+}
+
+// Gradients:
+
+@mixin gradient($start-color, $end-color, $orientation, $deg: 0deg) {
+  background: $start-color;
+  @if $orientation == 'vertical' {
+    background: -webkit-linear-gradient(top, $start-color, $end-color);
+    background: linear-gradient(to bottom, $start-color, $end-color);
+  } @else if $orientation == 'horizontal' {
+    background: -webkit-linear-gradient(left, $start-color, $end-color);
+    background: linear-gradient(to right, $start-color, $end-color);
+  } @else if $orientation == 'directional' {
+    background-repeat: repeat-x;
+    background-image: -webkit-linear-gradient($deg, $start-color, $end-color);
+    background-image: -o-linear-gradient($deg, $start-color, $end-color);
+    background-image: linear-gradient($deg, $start-color, $end-color);
+  } @else {
+    background: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+    background: radial-gradient(ellipse at center, $start-color, $end-color);
+  }
+}

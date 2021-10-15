@@ -1,0 +1,55 @@
+// Form:
+
+.form-control {
+  font-family: 'Muli-Italic';
+  color: $color1;
+  border-color: $color1;
+  @include placeholder($gray-500);
+}
+
+// Cards:
+
+.card-columns {
+  column-count: 2;
+  column-gap: $spacer*2;
+}
+
+// Links:
+
+.link-underlined {
+	text-decoration: underline;
+  @include transition(.25s);
+  &.-hover-c4:hover { color: $color4; }
+}
+
+// Dividers:
+
+hr {
+	&.hr-dark { border-color: $color1; }
+  &.hr-light { border-color: $color3; }
+}
+
+// Visuals:
+
+.bg-alpha {
+  background: rgba(255,255,255,.8);
+}
+
+.border-radius {
+  @include border-radius(10px);
+}
+
+.w-40 {
+  width: 40%;
+}
+
+// Images: 
+
+@media (max-width: 900px) {
+	.image-fixed-height {
+		  object-fit: cover;
+	  	&.-sm { height: 250px; }
+      &.-md { height: 300px; }
+      &.-lg { height: 450px; }
+	}
+}

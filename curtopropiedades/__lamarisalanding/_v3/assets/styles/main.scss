@@ -1,0 +1,22 @@
+@import 'scss/_vars.scss';
+
+// Plugins:
+
+@import 'vendor/bootstrap/bootstrap.scss';
+
+// Utilities:
+
+@import 'scss/utilities/_base.scss';
+@import 'scss/utilities/_mixins.scss';
+@import 'scss/utilities/_utilities.scss';
+@import 'scss/utilities/_rfs.scss';
+@import 'scss/utilities/_typography.scss';
+
+// Components:
+
+@import 'scss/components/_layout.scss';
+@import 'scss/components/_components.scss';
+
+// Pages:
+
+@import 'scss/pages/_home.scss';

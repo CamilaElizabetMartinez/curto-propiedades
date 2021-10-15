@@ -1,0 +1,39 @@
+//* { border: 1px solid red; }
+
+// Hero
+
+.hero {
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		right: 0;
+		display: block;
+		@include size(60vw, 100%);
+		background: $color1;
+	}
+}
+
+@media (max-width: 990px) {
+	.hero {
+		&:before {
+			@include size(100%, 100%);
+		}
+	}
+}
+
+// Block ladrillo:
+
+.content-block-ladrillo {
+	.item {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		.icon {
+			display: block;
+			width: 70px;
+		}
+	}
+}

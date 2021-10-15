@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<propiedades>
+	<propiedad>
+		<id_propiedad><![CDATA[114]]></id_propiedad>
+		<numero><![CDATA[3]]></numero>
+		<calle><![CDATA[Mariano Acosta]]></calle>
+		<numero_calle><![CDATA[1158]]></numero_calle>
+		<id_zona><![CDATA[637]]></id_zona>
+		<nombre_zona><![CDATA[Centro]]></nombre_zona>
+		<id_localidad><![CDATA[1127]]></id_localidad>
+		<nombre_localidad><![CDATA[MONTE GRANDE]]></nombre_localidad>
+		<codigo_postal_localidad><![CDATA[1842]]></codigo_postal_localidad>
+		<id_provincia><![CDATA[1]]></id_provincia>
+		<nombre_provincia><![CDATA[BUENOS AIRES]]></nombre_provincia>
+		<letra_provincia><![CDATA[B]]></letra_provincia>
+		<id_pais><![CDATA[1]]></id_pais>
+		<nombre_pais><![CDATA[Argentina]]></nombre_pais>
+		<telefono_propiedad></telefono_propiedad>
+		<id_tipo_propiedad><![CDATA[2]]></id_tipo_propiedad>
+		<nombre_tipo_propiedad><![CDATA[Casa]]></nombre_tipo_propiedad>
+		<numero_ambientes_propiedad><![CDATA[4]]></numero_ambientes_propiedad>
+		<id_orienctacion><![CDATA[3]]></id_orienctacion>
+		<nombre_orientacion><![CDATA[Este]]></nombre_orientacion>
+		<balcon_propiedad></balcon_propiedad>
+		<superficie_cubierta_propiedad><![CDATA[150]]></superficie_cubierta_propiedad>
+		<cantidad_baños_propiedad><![CDATA[2]]></cantidad_baños_propiedad>
+		<dependencias_propiedad><![CDATA[Esp: Hola
+Eng: Hello
+Port: Olá 
+]]></dependencias_propiedad>
+		<id_tipo_ubicacion><![CDATA[1]]></id_tipo_ubicacion>
+		<nombre_ubicacion><![CDATA[Frente]]></nombre_ubicacion>
+		<fecha_alta_propiedad><![CDATA[03/11/2016]]></fecha_alta_propiedad>
+		<en_venta><![CDATA[SI]]></en_venta>
+		<en_alquiler><![CDATA[SI]]></en_alquiler>
+		<importe_alquiler><![CDATA[10000]]></importe_alquiler>
+		<importe_venta><![CDATA[100000]]></importe_venta>
+		<id_moneda_alquiler><![CDATA[1]]></id_moneda_alquiler>
+		<nombre_moneda_alquiler><![CDATA[Pesos]]></nombre_moneda_alquiler>
+		<signo_moneda_alquiler><![CDATA[$]]></signo_moneda_alquiler>
+		<id_moneda_venta><![CDATA[2]]></id_moneda_venta>
+		<nombre_moneda_venta><![CDATA[Dólares]]></nombre_moneda_venta>
+		<signo_moneda_venta><![CDATA[U$S]]></signo_moneda_venta>
+		<fecha_alta_venta_propiedad><![CDATA[03/11/2016]]></fecha_alta_venta_propiedad>
+		<llaves_propiedad><![CDATA[S]]></llaves_propiedad>
+		<cartel_propiedad><![CDATA[S]]></cartel_propiedad>
+		<inventario_propiedad><![CDATA[Esp: Hola
+Eng: Hello
+Port: Olá ]]></inventario_propiedad>
+		<id_administrador><![CDATA[0]]></id_administrador>
+		<nombre_administrador><![CDATA[Sin administrar]]></nombre_administrador>
+		<direccion_administrador></direccion_administrador>
+		<telefono_administrador></telefono_administrador>
+		<mail_administrador></mail_administrador>
+		<observaciones_administrador></observaciones_administrador>
+		<observaciones_propiedad><![CDATA[Esp: Hola
+Eng: Hello
+Port: Olá ]]></observaciones_propiedad>
+		<id_propietario><![CDATA[2]]></id_propietario>
+		<razon_social_propietario><![CDATA[DOM CURT S.A.]]></razon_social_propietario>
+		<id_localidad_propietario><![CDATA[1127]]></id_localidad_propietario>
+		<nombre_localidad_propietario><![CDATA[MONTE GRANDE]]></nombre_localidad_propietario>
+		<codigo_postal_localidad_propietario><![CDATA[1842]]></codigo_postal_localidad_propietario>
+		<id_provincia_propietario><![CDATA[1]]></id_provincia_propietario>
+		<nombre_provincia_propietario><![CDATA[BUENOS AIRES]]></nombre_provincia_propietario>
+		<letra_provincia_propietario><![CDATA[B]]></letra_provincia_propietario>
+		<id_pais_propietario><![CDATA[1]]></id_pais_propietario>
+		<nombre_pais_propietario><![CDATA[Argentina]]></nombre_pais_propietario>
+		<id_nacionalidad_propietario><![CDATA[1]]></id_nacionalidad_propietario>
+		<nombre_nacionalidad_propietario><![CDATA[Argentino]]></nombre_nacionalidad_propietario>
+		<domicilio_propietario><![CDATA[Vicente López Nº 515]]></domicilio_propietario>
+		<telefono_propietario></telefono_propietario>
+		<numero_documento_propietario><![CDATA[12486371]]></numero_documento_propietario>
+		<cuit_propietario><![CDATA[30712340335]]></cuit_propietario>
+		<domicilio_comercial_propietario><![CDATA[Vicente López Nº 515 EP]]></domicilio_comercial_propietario>
+		<telefono_comercial_propietario></telefono_comercial_propietario>
+		<fecha_nacimiento_propietario><![CDATA[19/07/1958]]></fecha_nacimiento_propietario>
+		<id_tipo_persona_propietario><![CDATA[2]]></id_tipo_persona_propietario>
+		<descripcion_tipo_persona_propietario><![CDATA[Jurídica]]></descripcion_tipo_persona_propietario>
+		<tipo_documento_propietario><![CDATA[1]]></tipo_documento_propietario>
+		<descripcion_tipo_documento_propietario><![CDATA[DNI]]></descripcion_tipo_documento_propietario>
+		<id_condicion_iva_propietario><![CDATA[1]]></id_condicion_iva_propietario>
+		<descripcion_condicion_iva_propietario><![CDATA[Resp. Inscripto]]></descripcion_condicion_iva_propietario>
+		<letra_condicion_iva_propietario><![CDATA[A]]></letra_condicion_iva_propietario>
+		<mail_propietario><![CDATA[administracion@ladrilloslamarisa.com]]></mail_propietario>
+		<celular_propietario><![CDATA[15-4991-1097]]></celular_propietario>
+		<ocupacion_propietario><![CDATA[Constructora]]></ocupacion_propietario>
+		<nombre_propietario></nombre_propietario>
+		<apellido_propietario><![CDATA[DOM CURT S.A.]]></apellido_propietario>
+		<tipo_cliente_propietario><![CDATA[1]]></tipo_cliente_propietario>
+		<descripcion_tipo_cliente_alquiler><![CDATA[Propietario]]></descripcion_tipo_cliente_alquiler>
+		<id_estado_civil_propietario><![CDATA[4]]></id_estado_civil_propietario>
+		<descripcion_estado_civil_propietario><![CDATA[Viudo]]></descripcion_estado_civil_propietario>
+		<incluido_broche_agua><![CDATA[N]]></incluido_broche_agua>
+		<incluido_broche_api><![CDATA[N]]></incluido_broche_api>
+		<incluido_broche_tgi><![CDATA[N]]></incluido_broche_tgi>
+		<dia_pago_alquiler><![CDATA[0]]></dia_pago_alquiler>
+		<pedido_broche_agua><![CDATA[N]]></pedido_broche_agua>
+		<pedido_broche_api><![CDATA[N]]></pedido_broche_api>
+		<pedido_broche_tgi><![CDATA[N]]></pedido_broche_tgi>
+		<fecha_pedido_broche_agua></fecha_pedido_broche_agua>
+		<fecha_pedido_broche_api></fecha_pedido_broche_api>
+		<fecha_pedido_broche_tgi></fecha_pedido_broche_tgi>
+		<id_donde_llega_aguas><![CDATA[3]]></id_donde_llega_aguas>
+		<id_donde_llega_api><![CDATA[3]]></id_donde_llega_api>
+		<id_donde_llega_tgi><![CDATA[3]]></id_donde_llega_tgi>
+		<descripcion_donde_llega_aguas><![CDATA[NO INFORMADO]]></descripcion_donde_llega_aguas>
+		<descripcion_donde_llega_api><![CDATA[NO INFORMADO]]></descripcion_donde_llega_api>
+		<descripcion_donde_llega_tgi><![CDATA[NO INFORMADO]]></descripcion_donde_llega_tgi>
+		<domicilio_extra_propiedad></domicilio_extra_propiedad>
+		<medidas_propiedad><![CDATA[15 x 25]]></medidas_propiedad>
+		<tipo_piso_propiedad><![CDATA[ceramico ]]></tipo_piso_propiedad>
+		<patio_propiedad><![CDATA[si]]></patio_propiedad>
+		<id_cochera_propiedad><![CDATA[1]]></id_cochera_propiedad>
+		<descripcion_cochera_propiedad><![CDATA[SI]]></descripcion_cochera_propiedad>
+		<avaluo_fiscal></avaluo_fiscal>
+		<expensas_propiedad></expensas_propiedad>
+		<id_calefaccion_propiedad><![CDATA[2]]></id_calefaccion_propiedad>
+		<descripcion_calefaccion_propiedad><![CDATA[INDIVIDUAL]]></descripcion_calefaccion_propiedad>
+		<id_refrigeracion_propiedad><![CDATA[2]]></id_refrigeracion_propiedad>
+		<descripcion_refrigeracion_propiedad><![CDATA[INDIVIDUAL]]></descripcion_refrigeracion_propiedad>
+		<impuesto_api_propiedad><![CDATA[250,00]]></impuesto_api_propiedad>
+		<impuesto_tgi_propiedad><![CDATA[250,00]]></impuesto_tgi_propiedad>
+		<impuesto_aguas_propiedad><![CDATA[3000,00]]></impuesto_aguas_propiedad>
+		<aviso_propiedad><![CDATA[Esp: Hola
+Eng: Hello
+Port: Olá ]]></aviso_propiedad>
+		<superficie_total_propiedad><![CDATA[200,00]]></superficie_total_propiedad>
+		<superficie_lote_propiedad><![CDATA[375,00]]></superficie_lote_propiedad>
+		<entorno_inmediato_propiedad><![CDATA[residencial ]]></entorno_inmediato_propiedad>
+		<ventanales_propiedad><![CDATA[corredizos ]]></ventanales_propiedad>
+		<persianas_propiedad><![CDATA[black out ]]></persianas_propiedad>
+		<cocina_propiedad><![CDATA[si]]></cocina_propiedad>
+		<ocupacion_propiedad></ocupacion_propiedad>
+		<horario_disponible_propiedad><![CDATA[10:00]]></horario_disponible_propiedad>
+		<tiene_edificio><![CDATA[NO]]></tiene_edificio>
+		<descripcion_edificio_propiedad></descripcion_edificio_propiedad>
+		<antiguedad_propiedad><![CDATA[10]]></antiguedad_propiedad>
+		<cantidad_pisos_propiedad><![CDATA[3]]></cantidad_pisos_propiedad>
+		<unidad_por_pisos_propiedad></unidad_por_pisos_propiedad>
+		<ingresos_propiedad></ingresos_propiedad>
+		<cantidad_de_asensores></cantidad_de_asensores>
+		<techo_propiedad><![CDATA[Tejas ]]></techo_propiedad>
+		<cloaca_propiedad><![CDATA[1]]></cloaca_propiedad>
+		<descripcion_cloaca_propiedad><![CDATA[SI]]></descripcion_cloaca_propiedad>
+		<gas_propiedad><![CDATA[1]]></gas_propiedad>
+		<descripcion_gas_propiedad><![CDATA[SI]]></descripcion_gas_propiedad>
+		<materiales_propiedad><![CDATA[ladrillo a la vista]]></materiales_propiedad>
+		<fecha_posesion_propiedad><![CDATA[03/11/2016]]></fecha_posesion_propiedad>
+		<id_tipo_categoria_propiedad></id_tipo_categoria_propiedad>
+		<descripcion_tipo_categoria_propiedad></descripcion_tipo_categoria_propiedad>
+		<modificada_web_propiedad><![CDATA[1]]></modificada_web_propiedad>
+		<disponible_alquilar_propiedad><![CDATA[0]]></disponible_alquilar_propiedad>
+		<descripcion_disponible_alquilar_propiedad><![CDATA[NO]]></descripcion_disponible_alquilar_propiedad>
+		<propia_propiedad><![CDATA[0]]></propia_propiedad>
+		<descripcion_propia_propiedad><![CDATA[NO]]></descripcion_propia_propiedad>
+		<reservada_propiedad><![CDATA[0]]></reservada_propiedad>
+		<descripcion_reservada_propiedad><![CDATA[NO]]></descripcion_reservada_propiedad>
+		<aviso_diario_propiedad></aviso_diario_propiedad>
+		<id_productor_alquiler></id_productor_alquiler>
+		<nombre_productor_alquiler></nombre_productor_alquiler>
+		<tipo_comision_productor_alquiler></tipo_comision_productor_alquiler>
+		<descripcion_tipo_comision_productor_alquiler></descripcion_tipo_comision_productor_alquiler>
+		<importe_comision_productor_alquiler></importe_comision_productor_alquiler>
+		<telefono_productor_alquiler></telefono_productor_alquiler>
+		<mail_productor_alquiler></mail_productor_alquiler>
+		<id_productor_venta></id_productor_venta>
+		<nombre_productor_venta></nombre_productor_venta>
+		<tipo_comision_productor_venta></tipo_comision_productor_venta>
+		<descripcion_tipo_comision_productor_venta></descripcion_tipo_comision_productor_venta>
+		<importe_comision_productor_venta></importe_comision_productor_venta>
+		<telefono_productor_venta></telefono_productor_venta>
+		<mail_productor_venta></mail_productor_venta>
+		<descripcion_web_propiedad></descripcion_web_propiedad>
+		<id_productor_responsable_compra></id_productor_responsable_compra>
+		<nombre_productor_responsable_compra></nombre_productor_responsable_compra>
+		<tipo_comision_productor_responsable_compra></tipo_comision_productor_responsable_compra>
+		<descripcion_tipo_comision_productor_responsable_compra></descripcion_tipo_comision_productor_responsable_compra>
+		<importe_comision_productor_responsable_compra></importe_comision_productor_responsable_compra>
+		<telefono_productor_responsable_compra></telefono_productor_responsable_compra>
+		<mail_productor_responsable_compra></mail_productor_responsable_compra>
+		<tipo_responsable_compra><![CDATA[1]]></tipo_responsable_compra>
+		<descripcion_tipo_responsable_compra><![CDATA[RESERVADA]]></descripcion_tipo_responsable_compra>
+		<fecha_responsable_compra></fecha_responsable_compra>
+		<comision_venta_comprador><![CDATA[3,00]]></comision_venta_comprador>
+		<comision_venta_vendedor><![CDATA[3,00]]></comision_venta_vendedor>
+		<numero_tasador></numero_tasador>
+		<nombre_tasador></nombre_tasador>
+		<grupo_tasador></grupo_tasador>
+		<depto_tasador></depto_tasador>
+		<mail_tasador></mail_tasador>
+		<id_tipo_reserva_propiedad></id_tipo_reserva_propiedad>
+		<descripcion_tipo_reserva_propiedad></descripcion_tipo_reserva_propiedad>
+		<reserva_afecta_ambas_propiedad><![CDATA[1]]></reserva_afecta_ambas_propiedad>
+		<descripcion_reserva_afecta_ambas_propiedad><![CDATA[SI]]></descripcion_reserva_afecta_ambas_propiedad>
+		<nota_consorcio_propiedad></nota_consorcio_propiedad>
+		<coti_propiedades><![CDATA[0]]></coti_propiedades>
+		<descripcion_coti_propiedades><![CDATA[NO]]></descripcion_coti_propiedades>
+		<id_agua_caliente_propiedad><![CDATA[1]]></id_agua_caliente_propiedad>
+		<descripcion_agua_caliente_propiedad><![CDATA[SI]]></descripcion_agua_caliente_propiedad>
+		<id_agua_corriente_propiedad><![CDATA[1]]></id_agua_corriente_propiedad>
+		<descripcion_agua_corriente_propiedad><![CDATA[SI]]></descripcion_agua_corriente_propiedad>
+		<seguimiento_llamada_propietario><![CDATA[1]]></seguimiento_llamada_propietario>
+		<descripcion_seguimiento_llamada_propietario><![CDATA[SI]]></descripcion_seguimiento_llamada_propietario>
+		<id_no_disponible_para_mostrar><![CDATA[0]]></id_no_disponible_para_mostrar>
+		<descripcion_no_disponible_para_mostrar><![CDATA[DISPONIBLE]]></descripcion_no_disponible_para_mostrar>
+		<numero_llave_propiedad><![CDATA[1]]></numero_llave_propiedad>
+		<id_habita_propietario_propiedad><![CDATA[1]]></id_habita_propietario_propiedad>
+		<descripcion_habita_propietario_propiedad><![CDATA[SI]]></descripcion_habita_propietario_propiedad>
+		<fecha_fin_autorizacion_alquiler></fecha_fin_autorizacion_alquiler>
+		<fecha_fin_autorizacion_venta></fecha_fin_autorizacion_venta>
+		<id_subtipo_propiedad></id_subtipo_propiedad>
+		<descripcion_subtipo_propiedad></descripcion_subtipo_propiedad>
+		<latitud_propiedad><![CDATA[-34.8250255]]></latitud_propiedad>
+		<longitud_propiedad><![CDATA[-58.4821654]]></longitud_propiedad>
+		<fecha_act_expensas></fecha_act_expensas>
+		<fecha_act_tgi></fecha_act_tgi>
+		<fecha_act_aguas></fecha_act_aguas>
+		<fecha_act_api></fecha_act_api>
+		<ver_movil_propiedad><![CDATA[1]]></ver_movil_propiedad>
+		<descripcion_ver_movil_propiedad><![CDATA[SI]]></descripcion_ver_movil_propiedad>
+		<id_tipo_comision_alquiler_propiedad><![CDATA[1]]></id_tipo_comision_alquiler_propiedad>
+		<descripcion_tipo_comision_alquiler_propiedad><![CDATA[PORCENTAJE]]></descripcion_tipo_comision_alquiler_propiedad>
+		<id_tipo_comision_venta_propiedad><![CDATA[1]]></id_tipo_comision_venta_propiedad>
+		<descripcion_tipo_comision_venta_propiedad><![CDATA[PORCENTAJE]]></descripcion_tipo_comision_venta_propiedad>
+		<importe_comision_alquiler_propiedad><![CDATA[3,00]]></importe_comision_alquiler_propiedad>
+		<importe_comision_venta_propiedad><![CDATA[3,00]]></importe_comision_venta_propiedad>
+		<medidas_ambientes>
+		</medidas_ambientes>
+		<campos_extra_propiedad>
+		</campos_extra_propiedad>
+		<datos_enlace_propiedad>
+			<id_muestra_precio_web><![CDATA[1]]></id_muestra_precio_web>
+			<descripcion_muestra_precio_web><![CDATA[SI]]></descripcion_muestra_precio_web>
+			<texto_web_propiedad><![CDATA[Esp: Hola
+Eng: Hello
+Port: Olá ]]></texto_web_propiedad>
+			<id_destacada_propiedad><![CDATA[0]]></id_destacada_propiedad>
+			<descripcion_destacada_propiedad><![CDATA[NO]]></descripcion_destacada_propiedad>
+		</datos_enlace_propiedad>
+		<reservas_propiedad>
+		</reservas_propiedad>
+		<multimedia_propiedad>
+			<archivo>
+				<descripcion_archivo><![CDATA[living]]></descripcion_archivo>
+				<nombre_archivo><![CDATA[652.jpg]]></nombre_archivo>
+				<extension_archivo><![CDATA[jpg]]></extension_archivo>
+				<id_tipo_archivo><![CDATA[1]]></id_tipo_archivo>
+				<descripcion_tipo_archivo><![CDATA[IMAGEN]]></descripcion_tipo_archivo>
+				<orden_archivo><![CDATA[1]]></orden_archivo>
+				<id_origen_archivo><![CDATA[0]]></id_origen_archivo>
+				<descripcion_origen_archivo></descripcion_origen_archivo>
+			</archivo>
+			<archivo>
+				<descripcion_archivo><![CDATA[linvig2 ]]></descripcion_archivo>
+				<nombre_archivo><![CDATA[653.jpg]]></nombre_archivo>
+				<extension_archivo><![CDATA[jpg]]></extension_archivo>
+				<id_tipo_archivo><![CDATA[1]]></id_tipo_archivo>
+				<descripcion_tipo_archivo><![CDATA[IMAGEN]]></descripcion_tipo_archivo>
+				<orden_archivo><![CDATA[2]]></orden_archivo>
+				<id_origen_archivo><![CDATA[0]]></id_origen_archivo>
+				<descripcion_origen_archivo></descripcion_origen_archivo>
+			</archivo>
+			<archivo>
+				<descripcion_archivo><![CDATA[video pagina]]></descripcion_archivo>
+				<nombre_archivo></nombre_archivo>
+				<extension_archivo></extension_archivo>
+				<id_tipo_archivo><![CDATA[2]]></id_tipo_archivo>
+				<descripcion_tipo_archivo><![CDATA[VIDEO]]></descripcion_tipo_archivo>
+				<orden_archivo><![CDATA[3]]></orden_archivo>
+				<id_origen_archivo><![CDATA[2]]></id_origen_archivo>
+				<descripcion_origen_archivo><![CDATA[VIMEO]]></descripcion_origen_archivo>
+			</archivo>
+		</multimedia_propiedad>
+		<propietarios_propiedad>
+			<propietario>
+				<participacion_propietario><![CDATA[100,00]]></participacion_propietario>
+				<id_propietario><![CDATA[2]]></id_propietario>
+				<id_tipo_persona_propietario><![CDATA[2]]></id_tipo_persona_propietario>
+				<descripcion_tipo_persona_propietario><![CDATA[Jurídica]]></descripcion_tipo_persona_propietario>
+				<razon_social_propietario><![CDATA[DOM CURT S.A.]]></razon_social_propietario>
+				<id_nacionalidad_propietario><![CDATA[1]]></id_nacionalidad_propietario>
+				<descripcion_nacionalidad_propietario><![CDATA[Argentino]]></descripcion_nacionalidad_propietario>
+				<fecha_nacimiento_propietario><![CDATA[19/07/1958]]></fecha_nacimiento_propietario>
+				<id_tipo_documento_propietario><![CDATA[1]]></id_tipo_documento_propietario>
+				<desripcion_tipo_documento_propietario><![CDATA[DNI]]></desripcion_tipo_documento_propietario>
+				<numero_documento_propietario><![CDATA[12486371]]></numero_documento_propietario>
+				<id_condicion_iva_propietario><![CDATA[4]]></id_condicion_iva_propietario>
+				<descripcion_condicion_iva_propietario><![CDATA[Resp. Inscripto]]></descripcion_condicion_iva_propietario>
+				<letra_condicion_iva_propietario><![CDATA[A]]></letra_condicion_iva_propietario>
+				<cuit_propietario><![CDATA[30712340335]]></cuit_propietario>
+				<domicilio_particular_propietario><![CDATA[Vicente López Nº 515]]></domicilio_particular_propietario>
+				<telefono_particular_propietario></telefono_particular_propietario>
+				<domicilio_comercial_propietario><![CDATA[Vicente López Nº 515 EP]]></domicilio_comercial_propietario>
+				<telefono_comercial_propietario></telefono_comercial_propietario>
+				<id_localidad_propietario><![CDATA[1127]]></id_localidad_propietario>
+				<nombre_localidad_propietario><![CDATA[MONTE GRANDE]]></nombre_localidad_propietario>
+				<codigo_postal_localidad_propietario><![CDATA[1842]]></codigo_postal_localidad_propietario>
+				<id_provincia_propietario><![CDATA[1]]></id_provincia_propietario>
+				<nombre_provincia_propietario><![CDATA[BUENOS AIRES]]></nombre_provincia_propietario>
+				<letra_provincia_propietario><![CDATA[B]]></letra_provincia_propietario>
+				<id_pais_propietario><![CDATA[1]]></id_pais_propietario>
+				<descripcion_pais_propietario><![CDATA[Argentina]]></descripcion_pais_propietario>
+				<id_estado_civil_propietario><![CDATA[4]]></id_estado_civil_propietario>
+				<descripcion_estado_civil_propietario><![CDATA[Viudo]]></descripcion_estado_civil_propietario>
+				<dia_pago_propietario><![CDATA[10]]></dia_pago_propietario>
+				<id_tipo_cliente_propietario><![CDATA[1]]></id_tipo_cliente_propietario>
+				<descripcion_tipo_cliente_propietario><![CDATA[Propietario]]></descripcion_tipo_cliente_propietario>
+				<conyugue_propietario></conyugue_propietario>
+				<mail_propietario><![CDATA[administracion@ladrilloslamarisa.com]]></mail_propietario>
+				<fecha_alta_propietario><![CDATA[03/08/2015]]></fecha_alta_propietario>
+				<id_estado_persona_propietario><![CDATA[1]]></id_estado_persona_propietario>
+				<descripcion_estado_persona_propietario><![CDATA[Activo]]></descripcion_estado_persona_propietario>
+				<obervaciones_propietario></obervaciones_propietario>
+				<apellido_propietario><![CDATA[DOM CURT S.A.]]></apellido_propietario>
+				<nombre_propietario></nombre_propietario>
+				<ocupacion_propietario><![CDATA[Constructora]]></ocupacion_propietario>
+				<apellido_materno_propietario></apellido_materno_propietario>
+				<tiene_tarjeta_propietario><![CDATA[0]]></tiene_tarjeta_propietario>
+				<recibe_deposito_propietario><![CDATA[0]]></recibe_deposito_propietario>
+				<celular_propietario><![CDATA[15-4991-1097]]></celular_propietario>
+				<nombre_conyugue_propietario></nombre_conyugue_propietario>
+				<apellido_conyugue_propietario></apellido_conyugue_propietario>
+				<porcentaje_comision_propietario><![CDATA[0]]></porcentaje_comision_propietario>
+				<importe_comision_propietario><![CDATA[0]]></importe_comision_propietario>
+				<id_retencion_ganacias_propietario><![CDATA[1]]></id_retencion_ganacias_propietario>
+				<descripcion_retencion_ganacias_propietario><![CDATA[Inscripto]]></descripcion_retencion_ganacias_propietario>
+				<id_retencion_iva_propietario><![CDATA[4]]></id_retencion_iva_propietario>
+				<descripcion_retencion_iva_propietario><![CDATA[Sin Informar]]></descripcion_retencion_iva_propietario>
+				<id_retencion_ingresos_brutos_propietario><![CDATA[1]]></id_retencion_ingresos_brutos_propietario>
+				<descripcion_retencion_ingresos_brutos_propietario><![CDATA[Inscripto]]></descripcion_retencion_ingresos_brutos_propietario>
+			</propietario>
+		</propietarios_propiedad>
+		<carteles_propiedad>
+		</carteles_propiedad>
+	</propiedad>
+</propiedades>

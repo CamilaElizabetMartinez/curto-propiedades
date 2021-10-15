@@ -1,0 +1,29 @@
+@media print {
+  .hide-print {
+    display: none;
+  }
+  .show-print {
+    display: block;
+  }
+  .print-w-100 {
+    width: 100%;
+  }
+  .print-bd-0 {
+    border: 0 !important;
+  }
+  .print-pd-t-0 {
+    padding: 0 !important;
+  }
+  #propiedades {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

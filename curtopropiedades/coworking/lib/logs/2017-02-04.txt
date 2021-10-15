@@ -1,0 +1,15 @@
+Time : 03:14:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ref_id' in 'field list'
+Raw SQL : UPDATE propiedades SET ref_id = :ref_id,ref_table = :ref_table,ref_attach_id = :ref_attach_id,file = :file,activo = :activo WHERE id= :id
+
+Time : 02:41:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'path' in 'field list'
+Raw SQL : select path from sys_attach where ref_id=:ref_id and ref_attach_id=:ref_attach_id limit 1
+
+Time : 02:39:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'path' in 'field list'
+Raw SQL : INSERT INTO sys_attach (ref_id,ref_table,ref_attach_id,path,activo) VALUES (:ref_id,:ref_table,:ref_attach_id,:path,:activo)
+
+Time : 01:30:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : insert into propiedades

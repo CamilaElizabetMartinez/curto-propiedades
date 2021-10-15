@@ -1,0 +1,107 @@
+/* Breakpoints: ; */
+
+$sm: 540px;
+$md: 720px;
+$lg: 960px;
+$xl: 1140px;
+
+/* Color system */
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$gray-text: $gray-800;
+
+$color-success: #28a745;
+$color-info: #17a2b8;
+$color-warning: #ffc107;
+$color-danger: #dc3545;
+
+$light: $gray-100;
+$dark: $gray-800;
+
+$color1: #A32F35;
+$color2: #F3F2F2;
+$color3: #8B1F25;
+$color4: #000000;
+$color5: #000000;
+$color6: #000000;
+$color7: #000000;
+$color8: #000000;
+$color9: #000000;
+$color10: #000000;
+$color11: #000000;
+
+/* ZX Color status */
+
+$color-sin-procesar: #FDFE1F;
+$color-en-revision: #98E16A;
+$color-para-firma: #57D2A1;
+$color-proceso-aceptacion: #0ABEEB;
+$color-firmado: #30B198;
+$color-vencido: #5CA228;
+$color-cerrado: #CEE039;
+
+/* Bootstrap color system */
+
+$primary: $color1 !default;
+
+/* Spacing */
+
+$spacer: 1rem !default;
+$spacers: () !default;
+
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    6: ($spacer * 4.5),
+    7: ($spacer * 6),
+    8: ($spacer * 7.5),
+    9: ($spacer * 9),
+    10: ($spacer * 10.5)
+  ),
+  $spacers
+);
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$grid-breakpoints: map-merge(
+  (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1500px
+  ),
+  $grid-breakpoints
+);
+
+/* Buttons + Forms */
+
+$border-width: 1px !default;
+
+$input-btn-focus-width: 0;
+$input-btn-focus-color: transparent !default;
+
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;

@@ -1,0 +1,121 @@
+//* { border: .25px solid red; }
+
+// Home:
+
+section.page-home {
+	
+	section.block-home-planes {
+		.card {
+			border: 8px solid $white;
+			.card-header, .card-footer {
+				background: $color2;
+			}
+			.card-body {
+				background: $color3;
+				.card-image {
+					width: 120px;	
+				}
+			}
+		}
+		.planes-banner {
+			img { width: 150px; }
+		}
+	}
+
+	section.block-home-salas {
+		position: relative;
+		.salas-caption {
+			position: absolute;
+			pointer-events: none;
+			width: 100%;
+			z-index: 10;
+			top: 50%;
+			@include translateY(-50%);
+		}
+	}
+
+	section.block-home-servicios {
+		.item {
+			.item-image {
+				width: 100px;
+			}
+		}
+	}
+	
+	section.block-home-beneficios {
+		.item {
+			.item-image { width: 120px; }
+		}
+	}
+	
+	section.block-home-contacto {
+		.nav-social {
+			li {
+				a {
+					display: block;
+					@include square(60px);
+					i {
+						display: table-cell;
+						text-align: center;
+						vertical-align: middle;
+						color: $color2;
+						background: $color4;
+						@include square(60px);
+						@include border-radius(100%);
+						@include transition(.25s);
+					}
+					&:hover, &:focus {
+						text-decoration: none;
+						i {
+							color: $color4;
+							background: $color2;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+// Responsive font size
+
+@media (max-width: 600px) {
+
+	section.page-home {
+		section.block-home-hero {
+			.carousel {
+				.carousel-inner {
+					.carousel-caption {
+						.txt-8 { font-size: 21px; }
+					}
+				}
+			}
+		}
+		section.block-home-planes {
+			.planes-banner {
+				img { display: none; }
+			}
+		}
+		section.block-home-salas {
+			.salas-caption {
+				position: relative;
+				top: unset;
+				@include translateY(0);
+			}
+		}
+	}
+
+}
+
+@media (max-width: 1100px) {
+
+	section.page-home {
+		section.block-home-beneficios {
+			.item {
+				.item-image { width: 100px; }
+			}
+		}
+	}
+
+}

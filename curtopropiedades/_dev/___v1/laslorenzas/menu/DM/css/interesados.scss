@@ -1,0 +1,160 @@
+$naranja : #FB7C00;
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	background-color:#f4f4f4;
+}
+@keyframes borde{
+	0%{
+		border-top:5px solid #ccc;
+	}
+	100%{
+		border-top:5px solid #e56c0c;
+	}
+}
+.contenedor_interesados{
+	width:95%;
+	margin:10px auto;
+	background-color:#fff;
+	box-sizing:border-box;
+	border-top:5px solid #ccc;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+	position:relative;
+	z-index:20;
+}
+.ver_menos{
+	opacity:0.3;
+}
+.nublado {
+	opacity:1;
+	border-top:5px solid #e56c0c!important;
+}
+.hugui {
+	opacity:0.3;
+	border-top:5px solid #cccccc!important;
+}
+.hugo{
+	opacity:1;
+}
+.anaranjado{
+	opacity:0.3;
+	border-top:5px solid #cccccc;
+}
+.contenedor_interesados:hover{
+	cursor:pointer;
+}
+.los_interesados{
+	width: 95%;
+	margin: 0px auto 0px auto;
+	background-color:#f4f4f4;
+	position:relative;
+	z-index:-5;
+}
+.los_interesados div{
+	margin:15px auto;
+	background-color:#fff;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.32);
+	border-top:5px solid #666;
+}
+.los_interesados div span{
+	font-size:14px;
+	margin-left:20px;
+	color:#777;
+	font-weight:300;
+	position:absolute;
+	margin-top:20px;
+	margin-left:73%;
+}
+.los_interesados h3{
+	background-color: #f4f4f4;
+	color:#777;
+}
+.los_interesados h3, p{
+	padding:15px;
+}
+
+
+.vehiculo{
+	width: 100%;
+	background-color:#fff;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-direction:row;
+}
+*, :after, :before {
+    box-sizing: inherit;
+    border-top-color: #fff !important;
+}
+.vehiculo:after{
+	content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgba(255,255,255,0.35);
+    position: absolute;
+    top: 100%;
+    left: 30px;
+}
+.vehiculo .foto{
+	width: 30%;
+	padding:0px;
+	overflow:hidden;
+}
+.vehiculo .foto img{
+	height: 100px;
+	padding:0;
+	margin-left:-50px;
+	margin-bottom: -5px;
+}
+.vehiculo .info{
+	width: 70%;
+	font-size:0.8em;
+}
+.vehiculo .info h1{
+	font-size:1.5em;
+	color:#888;
+	padding-left:10px;
+}
+.vehiculo .info h1 span{
+	font-size:12px;
+	font-weight:300;
+}
+.vehiculo .info h3{
+	font-size:1.3em;
+	font-weight:300;
+	color:#222;
+	padding-left:10px;
+} 
+.vehiculo .info p{
+	font-size:1em;
+	color:#222;
+	padding-left:10px;
+}
+.vehiculo > .interesados > img{
+	color:red;
+	padding:0 2px 0 0;
+	margin:0;
+	border:0;
+	width:13px;
+}
+.vehiculo .interesados{
+	width: 70px;
+	height: 20px;
+	font-size:0.8em;
+	align-self:flex-end;
+	margin-bottom:16px;
+}
+.menu, .menu_lupa{
+	position: absolute;
+	margin-top: 49px;
+}

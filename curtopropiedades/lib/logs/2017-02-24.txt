@@ -1,0 +1,2 @@
+Time : 01:09:40
+SQLSTATE[HY000] [1045] Access denied for user 'nestor'@'localhost' (using password: YES)

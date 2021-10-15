@@ -1,0 +1,9 @@
+Time : 21:57:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'field list'
+Raw SQL : UPDATE desarrollos SET activo = :activo,fijo = :fijo,orden = :orden,titulo = :titulo,descripcion_corta = :descripcion_corta,descripcion = :descripcion,sup_cubierta = :sup_cubierta,sup_total = :sup_total,cant_habitaciones = :cant_habitaciones,cant_banos = :cant_banos,url = :url,video_youtube = :video_youtube,video_vimeo = :video_vimeo,vr_url_1 = :vr_url_1,vr_url_2 = :vr_url_2,vr_url_3 = :vr_url_3,fecha_modificado = :fecha_modificado WHERE id= :id
+
+Time : 21:47:23
+SQLSTATE[HY000] [1045] Access denied for user 'nestor'@'localhost' (using password: YES)
+
+Time : 21:46:58
+SQLSTATE[HY000] [1045] Access denied for user 'nestor'@'localhost' (using password: YES)

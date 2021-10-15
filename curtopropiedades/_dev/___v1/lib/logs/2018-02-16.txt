@@ -1,0 +1,7 @@
+Time : 02:46:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sysdate' in 'field list'
+Raw SQL : insert into sys_import (filename, date) values ('propiedades_20180209.xml',sysdate)
+
+Time : 02:36:59
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+Raw SQL : select id from sys_import where filename=:filename

@@ -1,0 +1,5 @@
+Time : 20:34:12
+SQLSTATE[HY000] [1049] Unknown database 'curto_propiedades'
+
+Time : 20:34:10
+SQLSTATE[HY000] [1049] Unknown database 'curto_propiedades'

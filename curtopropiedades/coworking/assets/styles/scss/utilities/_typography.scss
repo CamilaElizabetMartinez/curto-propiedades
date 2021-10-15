@@ -1,0 +1,130 @@
+// Muli:
+
+@font-face {
+  font-family: 'Muli-Light';
+  src: url('../fonts/muli/Muli-Light.eot');
+  src: url('../fonts/muli/Muli-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/muli/Muli-Light.woff') format('woff'),
+    url('../fonts/muli/Muli-Light.ttf') format('truetype'),
+    url('../fonts/muli/Muli-Light.svg#Muli-Light') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Muli-Regular';
+  src: url('../fonts/muli/Muli-Regular.eot');
+  src: url('../fonts/muli/Muli-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/muli/Muli-Regular.woff') format('woff'),
+    url('../fonts/muli/Muli-Regular.ttf') format('truetype'),
+    url('../fonts/muli/Muli-Regular.svg#Muli-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Muli-Italic';
+  src: url('../fonts/muli/Muli-Italic.eot');
+  src: url('../fonts/muli/Muli-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/muli/Muli-Italic.woff') format('woff'),
+    url('../fonts/muli/Muli-Italic.ttf') format('truetype'),
+    url('../fonts/muli/Muli-Italic.svg#Muli-Italic') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Muli-Bold';
+  src: url('../fonts/muli/Muli-Bold.eot');
+  src: url('../fonts/muli/Muli-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/muli/Muli-Bold.woff') format('woff'),
+    url('../fonts/muli/Muli-Bold.ttf') format('truetype'),
+    url('../fonts/muli/Muli-Bold.svg#Muli-Bold') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+// Nexa:
+
+@font-face {
+  font-family: 'Nexa-Light';
+  src: url('../fonts/nexa/Nexa-Regular.eot');
+  src: url('../fonts/nexa/Nexa-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/nexa/Nexa-Regular.woff') format('woff'),
+    url('../fonts/nexa/Nexa-Regular.ttf') format('truetype'),
+    url('../fonts/nexa/Nexa-Regular.svg#Nexa-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nexa-Bold';
+  src: url('../fonts/nexa/Nexa-Heavy.eot');
+  src: url('../fonts/nexa/Nexa-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/nexa/Nexa-Heavy.woff') format('woff'),
+    url('../fonts/nexa/Nexa-Heavy.ttf') format('truetype'),
+    url('../fonts/nexa/Nexa-Heavy.svg#Nexa-Heavy') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+// Applied
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Muli-Regular';
+  @include font-size(16.00px);
+  color: $gray-text; 
+  -moz-osx-font-smoothing: grayscale; 
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: geometricPrecision;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nexa-Bold';
+}
+
+.font-1 { font-family: 'Muli-Light'; }
+.font-2 { font-family: 'Muli-Regular'; }
+.font-3 { font-family: 'Muli-Italic'; }
+.font-4 { font-family: 'Muli-Bold'; }
+
+.font-5 { font-family: 'Nexa-Light'; }
+.font-6 { font-family: 'Nexa-Bold'; }
+  
+.txt-13 { @include font-size(99.07px); }
+.txt-12 { @include font-size(82.56px); }
+.txt-11 { @include font-size(68.80px); }
+.txt-10 { @include font-size(57.33px); }
+.txt-9 { @include font-size(47.78px); }
+.txt-8 { @include font-size(39.81px); }
+.txt-7 { @include font-size(33.18px); }
+.txt-6 { @include font-size(27.65px); }
+.txt-5 { @include font-size(23.04px); }
+.txt-4 { @include font-size(19.20px); }
+.txt-3 { @include font-size(16.00px); }
+.txt-2 { @include font-size(13.33px); }
+.txt-1 { @include font-size(11.11px); }
+
+.txt-tight-y { line-height: 1.1em; }
+.txt-tighter-y { line-height: 1em; }
+
+.txt-loose-y { line-height: 1.35em; }
+.txt-looser-y { line-height: 1.5em; }
+
+// Responsive font size
+
+@media (max-width: 1100px) {
+	html {
+	  font-size: 16px;
+	}
+}

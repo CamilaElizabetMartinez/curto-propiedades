@@ -1,0 +1,3 @@
+Time : 01:36:46
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ref_id' cannot be null
+Raw SQL : INSERT INTO sys_attach (ref_id,ref_table,ref_attach_id,file,activo) VALUES (:ref_id,:ref_table,:ref_attach_id,:file,:activo)

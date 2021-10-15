@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MIS INTERESADOS</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('#cruz,#la_lupa').click(function(){
+			$(this).toggleClass('open');
+		});
+	});
+    $(document).ready(function(){
+        var first = true;
+        var $menu = $('.menu');
+        var $menu_lupa = $('.menu_lupa');
+
+        $('#cruz').click(function() {
+            if ($menu.is(':visible')) {
+	            $menu.animate({top: -($menu.outerHeight() + 10)}, function() {
+	            $menu.hide();
+                });
+            }else{
+                $menu.show().css("top", -($menu.outerHeight() + 10)).animate({top: 0});
+                $menu_lupa.hide();
+            }
+        });
+
+        $('#la_lupa').click(function() {
+            if ($menu_lupa.is(':visible')) {
+	            $menu_lupa.animate({top: -($menu_lupa.outerHeight() + 10)}, function() {
+	            $menu_lupa.hide();
+                });
+            }else{
+                $menu_lupa.show().css("top", -($menu_lupa.outerHeight() + 10)).animate({top: 0});
+                $menu.hide();
+                $("#cruz").removeClass("open");
+            }
+        });
+    });
+  </script>
+</head>
+<body>
+	<div class="contenedor">
+		<div id="cruz">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div>
+		<div class="logodm">
+			<a href="http://autos.demotores.com.ar/" target="_blank" class="svg">
+				<object>
+				      <embed src="images/demotores.svg">
+			    </object>
+		    </a>
+	    </div>
+		<div class="compartir">
+		    <object>
+			    <a href="http://autos.demotores.com.ar/" target="_blank" class="svg">
+			      <embed src="images/compartir.svg">
+			     </a>
+		    </object>
+	    </div>
+	    <div class="naranja"></div>
+
+	    <div class="la_lupa">
+			<a href="#">
+				<span id="la_lupa" class="ico ico-mglass"></span>
+			</a>
+		</div>
+	</div>
+	<div class="menu">
+	    <ul>
+	        <li><a href="#"><img class="svg-img" src="images/price-tags.svg">Vender</a></li>
+	        <li><a href="#"><img class="svg-img" src="images/user-check.svg">Mis interesados</a></li>
+	        <li><a href="#"><img class="svg-img" src="images/profile.svg">Catalogo 0Km</a></li>
+	        <li><a href="#"><img class="svg-img" src="images/checkmark.svg">Avisos activos</a></li>
+	        <li><a href="#"><img class="svg-img" src="images/notification.svg">Avisos finalizados</a></li>
+	    </ul>
+	</div>
+	<div class="menu_lupa">
+	    <ul>
+	        <li><a href="#"><img class="svg-pi" src="images/pico.svg">Autos Usados</a></li>
+	        <li><a href="#"><img class="svg-pi" src="images/pico.svg">Autos Nuevos</a></li>
+	        <li><a href="#"><img class="svg-pi" src="images/pico.svg">Financiación</a></li>
+	        <li><a href="#"><img class="svg-pi" src="images/pico.svg">Motos</a></li>
+	        <li><a href="#"><img class="svg-pi" src="images/pico.svg">Náutica</a></li>
+	        <li><a href="#"><img class="svg-pi" src="images/pico.svg">Camiones</a></li>
+	        <li><a href="#"><img class="svg-pi" src="images/pico.svg">Casas Rodantes</a></li>
+	        <li><a href="#"><img class="svg-pi" src="images/pico.svg">Servicios</a></li>
+	    </ul>
+	</div>
+</body>
+</html>
