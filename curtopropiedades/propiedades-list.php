@@ -34,7 +34,7 @@
 		and 2=2 
 		and 3=3
 		and 4=4
-		order by tipo_propiedad asc, id desc';
+		';
 
 	/*-------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -365,7 +365,7 @@
 	// Typehead zonas:
 
 
-	$ret = $dbh->column('select distinct(localidad) from propiedades where activo = "S" order by localidad');
+	$ret = $dbh->column('select distinct(localidad) from propiedades where activo = "S"');
 
 	$cnt = count($ret);
 
