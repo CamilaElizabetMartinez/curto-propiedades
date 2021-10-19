@@ -27,7 +27,7 @@
 	/*--------------------------------------------------------------*/
 
 	$sql = '
-		select id from desarrollos where activo="S" order by fijo desc, orden asc, id desc';
+		select id from desarrollos where activo="S" order by fijo desc, id desc';
 
 	$ret = $dbh->query($sql, $arr_filters);
 
