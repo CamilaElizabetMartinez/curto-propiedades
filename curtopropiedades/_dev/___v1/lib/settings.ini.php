@@ -1,6 +1,7 @@
 ;<?php return; ?>
-[SQL]
+<!-- [SQL]
 host = localhost
 user = nestor
 password = nestor2003
-dbname = curto_propiedades
+dbname = curto_propiedades -->
+
