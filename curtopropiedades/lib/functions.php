@@ -171,14 +171,14 @@ function ret_attachments_admin_grid($cnn, $ref_id, $ref_table, $root_folder) {
 
 
 function ret_attachment_by_id($cnn, $ref_id, $ref_attach_id) {
-  $ret = $cnn->single("select file from sys_attach where activo='S' and ref_id=:ref_id and ref_attach_id=:ref_attach_id  order by orden asc limit 1", array("ref_id"=>$ref_id, "ref_attach_id"=>$ref_attach_id));
+  $ret = $cnn->single("select file from sys_attach where activo='S' and ref_id=:ref_id and ref_attach_id=:ref_attach_id  limit 1", array("ref_id"=>$ref_id, "ref_attach_id"=>$ref_attach_id));
   //return 'admin/'. $ret;
   return $ret;
 }
 
 
 function ret_attachment_array_by_id($cnn, $ref_id, $ref_attach_id) {
-  $ret = $cnn->query("select distinct(file) from sys_attach where activo='S' and ref_id=:ref_id and ref_attach_id=:ref_attach_id order by orden asc", array("ref_id"=>$ref_id, "ref_attach_id"=>$ref_attach_id));
+  $ret = $cnn->query("select distinct(file) from sys_attach where activo='S' and ref_id=:ref_id and ref_attach_id=:ref_attach_id ", array("ref_id"=>$ref_id, "ref_attach_id"=>$ref_attach_id));
   return $ret;
 }
 
