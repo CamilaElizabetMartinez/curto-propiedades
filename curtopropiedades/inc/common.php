@@ -1,5 +1,5 @@
 <?php
-	
+
 error_reporting (E_ALL ^ E_NOTICE);
 
 header("Content-Type: text/html; charset=utf-8");
@@ -16,7 +16,7 @@ require_once($pathRoot . 'lib/crud.php');
 require_once($pathRoot . 'lib/functions.php');
 require_once($pathRoot . 'lib/custom.php');
 
-mysql_query("SET NAMES 'utf8'");
+// mysql_query("SET NAMES 'utf8'");
 
 $dbh = new db();
 
