@@ -1,5 +1,5 @@
 <?php
-
+	
 	$url = 'buscar-propiedades';
 
 	$permit = '';
@@ -39,6 +39,7 @@
 <html lang="es">
  <head>
     <title>Propiedades | Curto Propiedades</title>
+	<h1>Hola desde el fichero local</h1>
 
     <?php include('inc/head.php'); ?>
 
@@ -65,7 +66,6 @@
 
 </head>
 <body>
-  
 	<?php include('inc/header.php'); ?>
 
 	<div class="wrapper">
