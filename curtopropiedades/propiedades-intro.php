@@ -198,7 +198,7 @@
                 if (e.isDefaultPrevented()) {
 					return false;
               	} else {
-              		$(this).attr('action','propiedades-list.php');
+              		$(this).attr('action','http://localhost/curto-propiedades/curtopropiedades/propiedades-list.php');
               	}
           	});
 
